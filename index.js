@@ -270,7 +270,7 @@ app.put("/updateStudent/:id", async (req, res) => {
   try {
     // Find the doctor by ID and update the fields
     const updatedStudent = await students.findByIdAndUpdate(
-      req.params.sid,
+      req.params.id,
       {
         htno,
         fullname,
