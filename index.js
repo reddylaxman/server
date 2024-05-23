@@ -14,10 +14,6 @@ connectDB();
 //const URI = "mongodb://0.0.0.0:0/employeeSchema";
 //const URI="mongodb://localhost:27017/employeeSchema";
 
-//Mongo Atlas connection String
-const URI =
-  "mongodb+srv://mgoutham:gouthamm123@cluster0.pt8suoz.mongodb.net/133";
-
 //bodyparser to be used for sending and receiving data
 
 app.use(bodyParser.urlencoded({ extended: true }));
