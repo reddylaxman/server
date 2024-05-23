@@ -2,7 +2,7 @@ var express = require("express");
 const cors = require("cors");
 var bodyParser = require("body-parser");
 require("dotenv").config();
-
+const { users, employees, students } = require("./usermodel");
 //use the express
 var app = express();
 const PORT = process.env.PORT;
