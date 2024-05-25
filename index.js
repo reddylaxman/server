@@ -29,8 +29,7 @@ app.use(
   cors({
     // Allow requests from multiple origins, including your GitHub Pages site
     origin: [
-      "http://localhost:3000", // Your development origin
-      "https://reddylaxman.github.io/untitled/", // Your GitHub Pages site
+      "https://reddylaxman.github.io/untitled/",
     ],
     optionsSuccessStatus: 200,
     methods: ["GET", "POST", "PUT", "DELETE"], // Methods you want to allow
