@@ -58,7 +58,7 @@ app.post("/register", async (req, res) => {
       !email ||
       !phone ||
       !country ||
-      !address,
+      !address||
     !gender)
   ) {
     return res
